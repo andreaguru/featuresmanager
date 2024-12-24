@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.001" height="20" viewBox="0 0 20.001 20">
+  <g id="Gruppe_1431" transform="translate(-8.5 -11.5)">
+    <rect id="Rechteck_78" width="4" height="4" transform="translate(8.5 11.5)" fill="rgba(33,33,33,0.38)"/>
+    <rect id="Rechteck_79" width="4" height="4" transform="translate(8.501 16.8)" fill="#319e7d"/>
+    <rect id="Rechteck_80" width="4" height="4" transform="translate(8.5 22.25)" fill="#fdad0d"/>
+    <rect id="Rechteck_81" width="4" height="4" transform="translate(8.5 27.5)" fill="#f15653"/>
+    <path id="Sell" d="M9.687,15.484,4,9.436V4H9.126L14.8,10.034ZM6.18,7.09a1.091,1.091,0,0,0,.673-.3.738.738,0,0,0,0-1.015.782.782,0,0,0-.673-.339.827.827,0,0,0-.7.294.738.738,0,0,0,0,1.015,1.05,1.05,0,0,0,.7.348Z" transform="translate(13.701 12.801)" fill="rgba(33,33,33,0.54)"/>
+  </g>
+</svg>

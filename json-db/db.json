@@ -1,0 +1,585 @@
+{
+    "clients": [
+        {
+            "id": 10,
+            "name": "Erster Mandant",
+            "alias": "erstermandant",
+            "identifier": "https://erstermandant.de",
+            "categories": {
+                "clientId": 10,
+                "category": {
+                    "id": 1136460,
+                    "name": "Startseite",
+                    "path": "root",
+                    "children": [
+                        {
+                            "id": 1136461,
+                            "name": "News",
+                            "path": "news",
+                            "children": [
+                                {
+                                    "id": 1136462,
+                                    "name": "Politik",
+                                    "path": "politik",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136463,
+                                    "name": "Wirtschaft",
+                                    "path": "wirtschaft",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136464,
+                                    "name": "Panorama",
+                                    "path": "panorama",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136465,
+                                    "name": "Sport",
+                                    "path": "sport",
+                                    "children": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "tags": [
+                {
+                    "id": 25732,
+                    "name": "1960er",
+                    "type": "EVENT",
+                    "clientId": 10
+                },
+                {
+                    "id": 23456,
+                    "name": "1970er",
+                    "type": "EVENT",
+                    "clientId": 10
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Zweiter Mandant",
+            "alias": "zweitermandant",
+            "identifier": "https://zweitermandant.de",
+            "categories": {
+                "clientId": 20,
+                "category": {
+                    "id": 1136460,
+                    "name": "Startseite",
+                    "path": "root",
+                    "children": [
+                        {
+                            "id": 1136461,
+                            "name": "News",
+                            "path": "news",
+                            "children": [
+                                {
+                                    "id": 1136462,
+                                    "name": "Politik",
+                                    "path": "politik",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136463,
+                                    "name": "Wirtschaft",
+                                    "path": "wirtschaft",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136464,
+                                    "name": "Panorama",
+                                    "path": "panorama",
+                                    "children": null
+                                },
+                                {
+                                    "id": 1136465,
+                                    "name": "Sport",
+                                    "path": "sport",
+                                    "children": null
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "tags": [
+                {
+                    "id": 25732,
+                    "name": "1960er",
+                    "type": "EVENT",
+                    "clientId": 10
+                },
+                {
+                    "id": 23456,
+                    "name": "1970er",
+                    "type": "EVENT",
+                    "clientId": 10
+                }
+            ]
+        }
+    ],
+    "configurations": [
+        {
+            "id": 1,
+            "name": "Header für 10",
+            "clientId": 10,
+            "featureId": 1,
+            "settings": {
+                "logoUrl": null,
+                "actionLinks": [
+                    {
+                        "order": 0,
+                        "elementType": "NAVIGATION_TRIGGER"
+                    },
+                    {
+                        "url": null,
+                        "order": 1,
+                        "elementType": "USER_ID_LINK"
+                    },
+                    {
+                        "url": "http://www.test.media",
+                        "order": 2,
+                        "elementType": "test_MEDIA_LINK"
+                    },
+                    {
+                        "url": "http://test.de/suche",
+                        "order": 3,
+                        "elementType": "SEARCH_LINK"
+                    }
+                ],
+                "featuredLinks": [
+                    {
+                        "url": "http://test.de/news/",
+                        "order": 0,
+                        "linkName": "News",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/service/",
+                        "order": 1,
+                        "linkName": "Service",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/thema/elektroauto-sti1519616/",
+                        "order": 2,
+                        "linkName": "Elektroauto",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/marken-modelle/",
+                        "order": 3,
+                        "linkName": "Marken",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/tests/fahrbericht",
+                        "order": 4,
+                        "linkName": "Fahrbericht",
+                        "elementType": "TEXT_LINK"
+                    }
+                ]
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-10-21T08:39:40Z"
+        },
+        {
+            "id": 2,
+            "name": "Footer für 10",
+            "clientId": 10,
+            "featureId": 2,
+            "settings": {
+                "links": [
+                    {
+                        "url": "https://test.de/ueber-uns/kontakt/",
+                        "name": "Kontakt",
+                        "order": 0,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/impressum/",
+                        "name": "Impressum",
+                        "order": 1,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/datenschutz/",
+                        "name": "Datenschutz",
+                        "order": 2,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/utiq-verwalten/",
+                        "name": "Utiq verwalten",
+                        "order": 3,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/agb/",
+                        "name": "AGB",
+                        "order": 4,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/netiquette/",
+                        "name": "Netiquette",
+                        "order": 5,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 6,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 7,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 8,
+                        "elementType": "TEXT_LINK"
+                    }
+                ]
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z"
+        },
+
+        {
+            "id": 3,
+            "name": "Header für 20",
+            "clientId": 20,
+            "featureId": 1,
+            "settings": {
+                "logoUrl": null,
+                "actionLinks": [
+                    {
+                        "order": 0,
+                        "elementType": "NAVIGATION_TRIGGER"
+                    },
+                    {
+                        "url": null,
+                        "order": 1,
+                        "elementType": "USER_ID_LINK"
+                    },
+                    {
+                        "url": "http://www.test.media",
+                        "order": 2,
+                        "elementType": "test_MEDIA_LINK"
+                    },
+                    {
+                        "url": "http://test.de/suche",
+                        "order": 3,
+                        "elementType": "SEARCH_LINK"
+                    }
+                ],
+                "featuredLinks": [
+                    {
+                        "url": "http://test.de/news/",
+                        "order": 0,
+                        "linkName": "News",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/service/",
+                        "order": 1,
+                        "linkName": "Service",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/thema/elektroauto-sti1519616/",
+                        "order": 2,
+                        "linkName": "Elektroauto",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/marken-modelle/",
+                        "order": 3,
+                        "linkName": "Marken",
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "http://test.de/tests/fahrbericht",
+                        "order": 4,
+                        "linkName": "Fahrbericht",
+                        "elementType": "TEXT_LINK"
+                    }
+                ]
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-10-21T08:39:40Z"
+        },
+        {
+            "id": 4,
+            "name": "Footer für 20",
+            "clientId": 20,
+            "featureId": 2,
+            "settings": {
+                "links": [
+                    {
+                        "url": "https://test.de/ueber-uns/kontakt/",
+                        "name": "Kontakt",
+                        "order": 0,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/impressum/",
+                        "name": "Impressum",
+                        "order": 1,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/datenschutz/",
+                        "name": "Datenschutz",
+                        "order": 2,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/utiq-verwalten/",
+                        "name": "Utiq verwalten",
+                        "order": 3,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/agb/",
+                        "name": "AGB",
+                        "order": 4,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/ueber-uns/netiquette/",
+                        "name": "Netiquette",
+                        "order": 5,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 6,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 7,
+                        "elementType": "TEXT_LINK"
+                    },
+                    {
+                        "url": "https://test.de/",
+                        "name": "test.de",
+                        "order": 8,
+                        "elementType": "TEXT_LINK"
+                    }
+                ]
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z"
+        }
+    ],
+    "features": [
+        {
+            "id": 1,
+            "name": "Header",
+            "key": "header",
+            "shortName": "Header",
+            "description": "Der Header ist eine Navigation für den Nutzer und kann ihn z.B. über featured und action Links durch die Seite leiten.",
+            "jsonSchema": {
+                "type": "object",
+                "properties": {
+                    "logoUrl": {
+                        "type": ["string", "null"],
+                        "title": "Logo-Link-URL (falls abweichend von Startseite)",
+                        "format": "uri-reference"
+                    },
+                    "actionLinks": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/linkElement"
+                        },
+                        "title": "Actions"
+                    },
+                    "featuredLinks": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/definitions/linkElement"
+                        },
+                        "title": "Featured"
+                    }
+                },
+                "definitions": {
+                    "linkElement": {
+                        "type": "object",
+                        "allOf": [
+                            {
+                                "if": {
+                                    "properties": {
+                                        "elementType": {
+                                            "const": "TEXT_LINK"
+                                        }
+                                    }
+                                },
+                                "then": {
+                                    "properties": {
+                                        "linkName": {
+                                            "type": "string",
+                                            "title": "Name"
+                                        },
+                                        "modifierClassExtension": {
+                                            "type": "string",
+                                            "title": "Link hervorheben (CSS Klasse)"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "if": {
+                                    "not": {
+                                        "properties": {
+                                            "elementType": {
+                                                "const": "USER_ID_LINK"
+                                            }
+                                        }
+                                    }
+                                },
+                                "then": {
+                                    "properties": {
+                                        "url": {
+                                            "type": ["string", "null"],
+                                            "title": "URL",
+                                            "format": "uri-reference"
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "properties": {
+                            "elementType": {
+                                "enum": [
+                                    "TEXT_LINK",
+                                    "test_MEDIA_LINK",
+                                    "NAVIGATION_TRIGGER",
+                                    "PNA_LINK",
+                                    "SEARCH_LINK",
+                                    "USER_PROFILE_LINK",
+                                    "USER_ID_LINK",
+                                    "WEATHER_LINK",
+                                    "APP_LINK"
+                                ],
+                                "type": "string",
+                                "title": "Element",
+                                "default": "TEXT_LINK",
+                                "enumNames": [
+                                    "Textlink",
+                                    "test Media Icon",
+                                    "Burger Menu Icon",
+                                    "PNA Icon (nur mobile)",
+                                    "Suche Icon",
+                                    "User Icon",
+                                    "USER.ID Icon",
+                                    "Wetter Icon",
+                                    "App Link (nur mobile)"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z"
+        },
+        {
+            "id": 2,
+            "name": "Footer",
+            "key": "footer",
+            "shortName": "Footer",
+            "description": "Im Footer können weitere Links zu wichtigen Seiten gesetzt werden.",
+            "jsonSchema": {
+                "type": "object",
+                "properties": {
+                    "links": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "url": {
+                                    "type": "string",
+                                    "title": "URL",
+                                    "format": "uri-reference"
+                                },
+                                "name": {
+                                    "type": "string",
+                                    "title": "Name"
+                                }
+                            }
+                        },
+                        "title": "Links"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z"
+        }
+    ],
+    "usages": [
+        {
+            "id": {
+                "clientId": 10,
+                "categoryId": 0,
+                "tagId": 0,
+                "configurationId": 1
+            },
+            "featureId": 1,
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-06-03T13:09:40Z",
+            "active": true
+        },
+        {
+            "id": {
+                "clientId": 10,
+                "categoryId": 0,
+                "tagId": 0,
+                "configurationId": 2
+            },
+            "featureId": 2,
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z",
+            "active": true
+        },
+        {
+            "id": {
+                "clientId": 20,
+                "categoryId": 0,
+                "tagId": 0,
+                "configurationId": 3
+            },
+            "featureId": 1,
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-06-03T13:09:40Z",
+            "active": true
+        },
+        {
+            "id": {
+                "clientId": 20,
+                "categoryId": 0,
+                "tagId": 0,
+                "configurationId": 4
+            },
+            "featureId": 2,
+            "created": "2024-03-15T09:28:28Z",
+            "modified": "2024-03-15T09:28:28Z",
+            "active": true
+        }
+    ]
+}
